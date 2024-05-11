@@ -1,0 +1,36 @@
+:root{
+    --bodyColor:hsl(220, 15%, 55%);
+    --containerColor:hsl(0, 0%, 100%);
+    --pColor:hsl(212, 55%, 0%);
+    --headingColor:hsl(218, 44%, 22%)
+}
+
+body{
+    background-color: var(--bodyColor);
+    font-family: outfit;
+}
+
+.container{
+    background-color: var(--containerColor);
+    padding: 1em;
+    border-radius: 1.5em;
+    width: 60%;
+    margin: 50px auto 0px;
+}
+
+img{
+    width: 100%;
+    border-radius: 1em;
+}
+
+.text{  
+    padding: 1.2em;
+}
+h2{
+    color: var(--headingColor);
+}
+p{
+    font-size: 15px;
+    line-height: 1.5em;
+    color: var(--pColor);
+}
